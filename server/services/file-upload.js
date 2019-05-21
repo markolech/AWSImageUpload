@@ -11,7 +11,6 @@ aws.config.update({
   region: 'us-east-2'
 });
  
-//const app = express()
 const s3 = new aws.S3()
  
 const upload = multer({
